@@ -1,5 +1,5 @@
 import { questionIa } from '../services/questionsIA'
-import { LangTraductor } from '../services/traductor'
+import { langTraductor } from '../services/traductor'
 
 export const spanishAnswer = async (query) => {
   const queryTranslate = await LangTraductor(query, 'en')
@@ -8,7 +8,7 @@ export const spanishAnswer = async (query) => {
   const msgError =
     'Se ha producido un error, le recomendamos repetir la pregunta en ingles.\nDisculpe las molestias'
 
-  const translate = await LangTraductor(
+  const translate = await langTraductor(
     originalAnswer
       .replaceAll('"', '|')
       .replaceAll('\n', '$')

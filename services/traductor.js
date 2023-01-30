@@ -1,4 +1,4 @@
-export const LangTraductor = (text, target) => {
+export const langTraductor = (text, target) => {
   const MICROSOFT_TRANSLATE_API_KEY = import.meta.env
     .VITE_MICROSOFT_TRANSLATE_API_KEY
   const MICROSOFT_TRANSLATE_API_URL = import.meta.env
