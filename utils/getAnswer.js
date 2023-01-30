@@ -1,4 +1,4 @@
-import { langDetect } from '../services/LanguageDetect'
+import { langDetect } from '../services/languageDetect'
 import { questionIa } from '../services/questionsIA'
 import { spanishAnswer } from './spanishAnswer'
 
