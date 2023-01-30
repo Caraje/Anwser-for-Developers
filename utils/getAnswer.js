@@ -1,6 +1,7 @@
 import { questionIa } from '../services/questionsIA'
 import { spanishAnswer } from './spanishAnswer'
 
+// ---------------
 const COHERE_API_KEY = import.meta.env.VITE_COHERE_API_KEY
 const COHERE_API_DETECT_LANGUAGE_URL = import.meta.env
   .VITE_COHERE_API_DETECT_LANGUAGE_URL
@@ -24,6 +25,9 @@ export const LangDetect = (input) => {
     .catch((err) => console.error(err))
   return results
 }
+
+// ---------------
+
 export const getAnswer = async (query) => {
   const lang = await LangDetect(query)
   const { language_code } = lang.results[0]
