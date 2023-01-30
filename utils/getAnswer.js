@@ -6,7 +6,7 @@ const COHERE_API_KEY = import.meta.env.VITE_COHERE_API_KEY
 const COHERE_API_DETECT_LANGUAGE_URL = import.meta.env
   .VITE_COHERE_API_DETECT_LANGUAGE_URL
 
-export const LangDetect = (input) => {
+export const langDetect = (input) => {
   const options = {
     method: 'POST',
     headers: {
@@ -29,7 +29,7 @@ export const LangDetect = (input) => {
 // ---------------
 
 export const getAnswer = async (query) => {
-  const lang = await LangDetect(query)
+  const lang = await langDetect(query)
   const { language_code } = lang.results[0]
 
   if (language_code === 'en') {
