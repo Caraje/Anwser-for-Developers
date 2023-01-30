@@ -2,7 +2,7 @@ const COHERE_API_KEY = import.meta.env.VITE_COHERE_API_KEY
 const COHERE_API_DETECT_LANGUAGE_URL = import.meta.env
   .VITE_COHERE_API_DETECT_LANGUAGE_URL
 
-export const LangDetect = (input) => {
+export const langDetect = (input) => {
   const options = {
     method: 'POST',
     headers: {
