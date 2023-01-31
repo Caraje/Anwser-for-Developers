@@ -1,4 +1,71 @@
 
+.container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+}
+
+.title {
+  font-size: 10rem;
+  line-height: 0.7;
+}
+
+.spanA{
+  font-size: 2rem;
+  transform: rotate(90deg);
+  /* margin-left: 1rem; */
+}
+.spanB{
+  color: var(--highlight);
+  font-size: 8rem;
+}
+
+.questionForm{
+width: 45.5rem;
+margin-top: 2rem;
+}
+
+.inputQuestion{
+  display: flex;
+}
+.inputForm{
+  width: 85%;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: .6rem 1rem;
+  font-family: var(--primaryFont);
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+.btn{
+  width: 15%;
+  font-size: 1.4rem;
+  padding: .6rem;
+  background-color: var(--highlight);
+  color: var(--primary);
+  font-family: var(--primaryFont);
+  font-weight: 800;
+  border-radius: 05px 5px 0;
+}
+.disabled{
+  width: 15%;
+  font-size: 1.4rem;
+  padding: .6rem;
+  background-color: var(--disabled);
+  color: var(--primary);
+  font-family: var(--primaryFont);
+  font-weight: 800;
+  border-radius: 05px 5px 0;
+}
+
+
+/*
+
+
+LUEGO BORRAMOS
 
 .container {
   height: 100vh;
@@ -60,9 +127,9 @@
 }
 
 .btn {
-  /* width: fit-content; */
+  width: fit-content; 
   width: 100%;
-  /* margin: 1rem 0; */
+  margin: 1rem 0;
   color: var(--primary);
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -76,7 +143,7 @@
     padding: 0.5rem 1rem;
     border-radius: 5px;
     background-color: var(--disabled);
-    /* background-color: #4d4d4d; */
+    background-color: #4d4d4d; 
     transition: all .3s ease-in-out;
 }
 
@@ -124,3 +191,4 @@ backdrop-filter: blur(5px);
   font-weight: bold;
   font-size: 1.2rem;
 }
+*/

@@ -22,13 +22,15 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/background_dark.svg');
+  background-size: cover;
+  font-size: 1rem;
 
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+
 
 button {
   border: none;
@@ -36,12 +38,12 @@ button {
   
 }
 
-footer{
+/* footer{
   margin-top: auto;
-}
+} */
 
 
-.footerWeb{
+/* .footerWeb{
   background-color: var(--highlight);
   padding: 1rem;
   display: flex;
@@ -58,4 +60,4 @@ footer{
   color: var(--secondary);
   font-weight: bold;
   font-size: 1.2rem;
-}
+} */
