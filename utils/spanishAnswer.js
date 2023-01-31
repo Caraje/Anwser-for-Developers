@@ -2,7 +2,7 @@ import { questionIa } from '../services/questionsIA'
 import { langTraductor } from '../services/traductor'
 
 export const spanishAnswer = async (query) => {
-  const queryTranslate = await LangTraductor(query, 'en')
+  const queryTranslate = await langTraductor(query, 'en')
   const queryEN = queryTranslate[0].translations[0].text
   const originalAnswer = await questionIa(queryEN)
   const msgError =
