@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import LoadingBar from '../components/LoadingBar'
 import { getAnswer } from '../utils/getAnswer'
 
 import style from './styles/Home.module.css'
@@ -52,6 +53,7 @@ function App() {
             </button>
           </form>
         </section>
+        <LoadingBar />
       </main>
       <footer className={style.footerWeb}>
         <section>
