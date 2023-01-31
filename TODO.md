@@ -8,6 +8,8 @@
  - [x] Detectar Errores y manejar las respuestas
  - [x] Hacer traduccion de respuestas en funcion del idioma de la pregunta.
  - [x] Refactorizar el codigo
+ - [x] Subir la app a GitHub
+ - [x] Publicarla en un servicio
  - [] Mejorar el diseño de la app
  - [] Hacer la app Responsive
  - [] CUIDAR ORTOGRAFIA!!!!!
@@ -15,5 +17,5 @@
  - [] revisar Refactorizar el codigo
  - [] Añadir Tests
  - [] mejorar las respuetas con mass ejemplos
- - [] Subir la app a GitHub
- - [] Publicarla en un servicio
+ - [] Subir la app a GitHub - version final
+ - [] Publicarla en un servicio - version final
