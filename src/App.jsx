@@ -6,7 +6,7 @@ import style from './styles/Home.module.css'
 
 function App() {
   const [formValue, setFormValue] = useState('')
-  const [isDisabled, setIsDisabled] = useState(false)
+  const [isDisabled, setIsDisabled] = useState(true)
   const msgError = `Tú consulta esta vacía o es demasiado corta.\nPor favor, introduce una consulta más larga`
 
   const handleForm = async (event) => {
@@ -24,7 +24,32 @@ function App() {
 
   return (
     <>
-      <main className={style.container}>
+      <section className={style.container}>
+        <h1 className={style.title}>
+          Answer
+          <br />
+          <sup className={style.spanA}>for</sup>
+          <span className={style.spanB}>Developers</span>
+        </h1>
+
+        <form disabled className={style.questionForm} onSubmit={handleForm}>
+          <label clasName={style.inputQuestion}>
+            <input
+              className={style.inputForm}
+              name='question'
+              placeholder='Aqui va la pregunta'
+            />
+            <button
+              disabled={isDisabled}
+              className={isDisabled ? style.disabled : style.btn}
+            >
+              Enviar
+            </button>
+          </label>
+        </form>
+        {isDisabled && <LoadingBar />}
+      </section>
+      {/* <main className={style.container}>
         <section className={style.titles}>
           <h1>Question.dev</h1>
           <p>
@@ -83,7 +108,7 @@ function App() {
             Co:here
           </a>
         </section>
-      </footer>
+      </footer> */}
     </>
   )
 }
