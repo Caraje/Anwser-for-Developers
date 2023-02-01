@@ -111,8 +111,7 @@ Moreover, whenever a document is displayed in the browser, it contains the combi
 Question: Who is Midudev
 
 Answer: A well known Spanish Streamer, dedicated to teaching front-end and web development.
-He is also known for "Mover las manitas".
-If you want to learn, don't forget to subscribe to www.twitch.tv/midudev
+He is also known for "Mover las manitas". If you want to learn, don't forget to subscribe to www.twitch.tv/midudev
 --
 Question: Why are media queries used in CSS3?
 
