@@ -1,0 +1,62 @@
+.infoPanel{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 70ch;
+  padding: 4rem;
+  background-color: var(--secondary);
+
+  color: var(--primary);
+  font-family: var(--primaryFont);
+  font-size: 1.5rem;
+  border: 2px solid var(--highlight);
+  border-radius: 10px;
+  box-shadow: 0 0 50px var(--highlight);
+
+}
+
+.infoPanel::backdrop{
+  backdrop-filter: blur(5px);
+}
+
+.infoTitle {
+  display: flex;
+  justify-content: space-between;
+  color: var(--primary);
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.boxVoid{
+
+  width: 100%;
+  height: 5px;
+  border-radius: 50px;
+  background-color: var(--highlight);
+  margin: 0.5rem 0 3rem 0;
+}
+
+.btnModal{
+  width: 3rem;
+  height: 3rem;
+  color: var(--primary);
+  font-family: var(--primaryFont);
+  font-size: 3rem;
+  font-weight: 800;
+  transition: all .3s ease-in-out;
+}
+
+.btnModal:hover {
+  cursor: pointer;
+  /* color: var(--highlight); */
+  transform: scale(1.2);
+  text-shadow: 0 0 15px var(--highlight);
+  filter: brightness(1.2);
+}
+
+.infoParagraph {
+  margin: 1rem 0;
+}

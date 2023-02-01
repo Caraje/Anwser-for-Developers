@@ -1,0 +1,14 @@
+.title {
+  font-size: 10rem;
+  line-height: 0.7;
+}
+
+.spanA{
+  font-size: 2rem;
+  transform: rotate(90deg);
+  /* margin-left: 1rem; */
+}
+.spanB{
+  color: var(--highlight);
+  font-size: 8rem;
+}

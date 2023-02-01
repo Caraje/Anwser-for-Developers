@@ -1,0 +1,49 @@
+
+.questionForm{
+  width: 45.5rem;
+  margin-top: 2rem;
+  }
+  
+  .inputQuestion{
+    display: flex;
+  }
+  .inputForm{
+    width: 85%;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: .6rem 1rem;
+    font-family: var(--primaryFont);
+    border-radius: 5px 0 0 5px;
+    border: none;
+  }
+
+  .btn{
+    width: 15%;
+    font-size: 1.4rem;
+    padding: .6rem;
+    background-color: var(--highlight);
+    color: var(--primary);
+    font-family: var(--primaryFont);
+    font-weight: 800;
+    border-radius: 0 5px 5px 0;
+  transition: all .3s ease-in-out;
+
+  }
+  .btn:hover {
+    cursor: pointer;
+    /* color: var(--highlight); */
+    /* transform: scale(1.2); */
+    box-shadow: 0 0 10px var(--highlight);
+    filter: brightness(1.2);
+  }
+  .disabled{
+    width: 15%;
+    font-size: 1.4rem;
+    padding: .6rem;
+    background-color: var(--disabled);
+    color: var(--primary);
+    font-family: var(--primaryFont);
+    font-weight: 800;
+    border-radius: 05px 5px 0;
+  }
+  
