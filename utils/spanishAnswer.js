@@ -3,6 +3,9 @@ import { langTraductor } from '../services/traductor'
 
 export const spanishAnswer = async (query) => {
   const queryTranslate = await langTraductor(query, 'en')
+  if (queryTranslate.error)
+    return 'Hay un problema con los servicios de traduccion, repita la pregunta en Ingles, disculpe las molestias'
+
   const queryEN = queryTranslate[0].translations[0].text
   const originalAnswer = await questionIa(queryEN)
   const msgError =
@@ -15,7 +18,6 @@ export const spanishAnswer = async (query) => {
       .replaceAll('--\n', ''),
     'es'
   )
-
   if (translate.message === 'Failed to fetch' || translate.info) return msgError
   const spanishAnswer = translate[0].translations[0].text
   return spanishAnswer
