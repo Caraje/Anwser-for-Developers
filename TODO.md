@@ -10,7 +10,7 @@
  - [x] Refactorizar el codigo
  - [x] Subir la app a GitHub
  - [x] Publicarla en un servicio
- - [] Mejorar el diseño de la app
+ - [x] Mejorar el diseño de la app
  - [] Hacer la app Responsive
  - [] CUIDAR ORTOGRAFIA!!!!!
  - [] Crear un README.md decente
