@@ -12,11 +12,11 @@
  - [x] Publicarla en un servicio
  - [x] Mejorar el diseño de la app
  - [x] Hacer la app Responsive
- - [] CUIDAR ORTOGRAFIA!!!!!
+ - [x] CUIDAR ORTOGRAFIA!!!!!
+ - [x] Poner el Title y un favicon
  - [] Crear un README.md decente
  - [] revisar Refactorizar el codigo
  - [] limpiar codigo de comentarios y console.logs
- - [] Añadir Tests
- - [] mejorar las respuetas con mass ejemplos
+ - [] mejorar las respuetas con mas ejemplos
  - [] Subir la app a GitHub - version final
  - [] Publicarla en un servicio - version final
