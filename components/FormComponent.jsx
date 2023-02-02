@@ -19,8 +19,8 @@ const FormComponent = ({ isDisabled, handleForm }) => {
             Enviar
           </button>
         </label>
+        {isDisabled && <LoadingBar />}
       </form>
-      {isDisabled && <LoadingBar />}
     </>
   )
 }

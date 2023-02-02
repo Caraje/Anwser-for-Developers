@@ -39,17 +39,16 @@ function App() {
           readOnly
           disabled
         />
+        <button
+          className={style.btnInfo}
+          onClick={() => {
+            dialog.current.showModal()
+          }}
+        >
+          !
+        </button>
       </section>
       <ModalInfo infoBase={infoBase} dialog={dialog} />
-
-      <button
-        className={style.btnInfo}
-        onClick={() => {
-          dialog.current.showModal()
-        }}
-      >
-        !
-      </button>
     </>
   )
 }

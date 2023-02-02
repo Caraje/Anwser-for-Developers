@@ -1,18 +1,22 @@
 
 .container {
-  width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-
+  margin-top: 3rem;
+}
+@media (min-width: 768px) {
+  .container {
+    margin-top: 0;
+  }
 }
 
 .answersBox{
-  width: 45.5rem;
+  width: 75vw;
   height: 20rem;
   border-radius: 5px;
-  margin-top: 1rem;
+  margin-top: 4rem;
   padding: 1rem;
   resize: none;
   background-color: rgba(45, 45, 45, 0.5);
@@ -22,20 +26,34 @@
   font-family: var(--primaryFont);
   font-size: 1.2rem;
 }
+@media (min-width: 768px) {
+  .answersBox{
+    width: 35vw;
+    margin-top: 1rem;
+  }
+}
 
 .btnInfo{
-  position: absolute;
-  bottom: 3rem;
-  right: 3rem;
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50px;
+  margin: 0 auto;
+  width: 75vw;
+  border-radius: 5px;
   background-color: var(--highlight);
   font-size: 3rem;
   font-family: var(--primaryFont);
   font-weight: 800;
   color: var(--secondary);
   transition: all .2s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .btnInfo{
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px;
+  }
 }
 
 .btnInfo:hover {

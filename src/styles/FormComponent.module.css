@@ -1,49 +1,75 @@
 
 .questionForm{
-  width: 45.5rem;
-  margin-top: 2rem;
+  width: 75vw;
+  height: 1rem;
+  margin: 2rem;
   }
   
   .inputQuestion{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .questionForm{
+      width: 35vw;
+      }
+    .inputQuestion{
+      flex-direction: row;
+    }
   }
   .inputForm{
-    width: 85%;
+    /* width: 85%; */
+    width: 100%;
     font-size: 1.4rem;
     font-weight: 600;
     padding: .6rem 1rem;
     font-family: var(--primaryFont);
-    border-radius: 5px 0 0 5px;
+    border-radius: 5px 5px 0 0;
     border: none;
   }
+  
 
   .btn{
-    width: 15%;
+    width: 100%;
     font-size: 1.4rem;
     padding: .6rem;
     background-color: var(--highlight);
     color: var(--secondary);
     font-family: var(--primaryFont);
     font-weight: 800;
-    border-radius: 0 5px 5px 0;
-  transition: all .3s ease-in-out;
+    border-radius: 0 0 5px 5px;
+    transition: all .3s ease-in-out;
 
   }
   .btn:hover {
     cursor: pointer;
-    /* color: var(--highlight); */
-    /* transform: scale(1.2); */
     box-shadow: 0 0 10px var(--highlight);
     filter: brightness(1.2);
   }
   .disabled{
-    width: 15%;
+    width: 100%;
     font-size: 1.4rem;
     padding: .6rem;
     background-color: var(--disabled);
     color: var(--primary);
     font-family: var(--primaryFont);
     font-weight: 800;
-    border-radius: 05px 5px 0;
+    border-radius: 0 0 5px 5px;
   }
   
+  @media (min-width: 768px) {
+    .btn{
+      width: 15%;
+      border-radius: 0 5px 5px 0;  
+    }
+    .inputForm{
+      width: 85%;
+      border-radius: 5px 0 0 5px;
+    }
+    .disabled{
+      width: 15%;
+      border-radius: 0 5px 5px 0;
+    }
+  }

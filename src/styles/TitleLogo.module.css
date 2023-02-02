@@ -1,14 +1,33 @@
+
+/* .titleContainer {
+  max-width: 20rem;
+  background-color: aquamarine;
+} */
+
 .title {
-  font-size: 10rem;
+  font-size: 16vw;
   line-height: 0.7;
 }
 
+
 .spanA{
-  font-size: 2rem;
-  transform: rotate(90deg);
-  /* margin-left: 1rem; */
+  font-size: 3.2vw;
 }
 .spanB{
   color: var(--highlight);
-  font-size: 8rem;
+  font-size: 13vw;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 6vw;
+    line-height: 0.8;
+  }
+  .spanA{
+    font-size: 2vw;
+  }
+  .spanB{
+    color: var(--highlight);
+    font-size: 6vw;
+  }
 }

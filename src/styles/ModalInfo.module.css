@@ -5,17 +5,23 @@
   right: 0;
   bottom: 0;
   margin: auto;
-  max-width: 70ch;
-  padding: 4rem;
+  width: 90vw;
+  padding: 1rem;
   background-color: var(--secondary);
-
   color: var(--primary);
   font-family: var(--primaryFont);
-  font-size: 1.5rem;
+  font-size: 1rem;
   border: 2px solid var(--highlight);
   border-radius: 10px;
   box-shadow: 0 0 50px var(--highlight);
+}
+@media (min-width: 768px) {
+  .infoPanel{
+    max-width: 70ch;
+    padding: 4rem;
+    font-size: 1.5rem;
 
+  }
 }
 
 .infoPanel::backdrop{
@@ -26,8 +32,15 @@
   display: flex;
   justify-content: space-between;
   color: var(--primary);
-  font-size: 2rem;
+  font-size: 1rem;
   text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .infoTitle {
+    font-size: 2rem;
+
+  }
 }
 
 .boxVoid{
@@ -40,11 +53,11 @@
 }
 
 .btnModal{
-  width: 3rem;
-  height: 3rem;
+  width: 1.5rem;
+  height: 1.5rem;
   color: var(--primary);
   font-family: var(--primaryFont);
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: 800;
   transition: all .3s ease-in-out;
 }
@@ -55,6 +68,14 @@
   transform: scale(1.2);
   text-shadow: 0 0 15px var(--highlight);
   filter: brightness(1.2);
+}
+
+@media (min-width: 768px) {
+  .btnModal{
+    width: 3rem;
+    height: 3rem;
+    font-size: 3rem;
+  }
 }
 
 .infoParagraph {

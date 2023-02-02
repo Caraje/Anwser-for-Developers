@@ -7,9 +7,7 @@
 
 
 a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  text-decoration: none;
 }
 a:hover {
   color: #535bf2;
@@ -38,26 +36,3 @@ button {
   
 }
 
-/* footer{
-  margin-top: auto;
-} */
-
-
-/* .footerWeb{
-  background-color: var(--highlight);
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1rem;
-}
-.footerWeb section {
-  text-align: center;
-}
-.footerWeb a {
-  text-decoration: none;
-  color: var(--secondary);
-  font-weight: bold;
-  font-size: 1.2rem;
-} */

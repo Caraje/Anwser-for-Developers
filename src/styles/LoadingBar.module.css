@@ -1,14 +1,19 @@
 .loader { 
-  width: 45.5rem;
-  margin:0.4rem auto;
+  width: 75vw;
+  margin:1rem 0;
   border-radius:10px;
   border:4px solid transparent;
   position:relative;
   padding:.2rem;
 }
+@media (min-width: 768px) {
+  .loader { 
+    width: 35vw
+  }
+}
 .loader:before {
   content:'';
-  border:1px solid #ed1e79; 
+  border:1px solid var(--highlight); 
   border-radius:10px;
   position:absolute;
   top:-4px; 
@@ -23,7 +28,7 @@
   right:100%;
   bottom:0;
   left:0;
-  background:#ed1e79; 
+  background:var(--highlight); 
   width:0;
   animation:borealisBar 1.5s linear infinite;
 }
