@@ -2,24 +2,23 @@ import { questionIa } from '../services/questionsIA'
 import { langTraductor } from '../services/traductor'
 
 export const spanishAnswer = async (query) => {
-  const queryTranslate = await langTraductor(query, 'en')
-  if (queryTranslate.error)
-    return 'El servicio que provee la traducción esta caído en estos momentos, intente de nuevo su pregunta en inglés.\n\nDisculpe las molestias'
-
-  const queryEN = queryTranslate[0].translations[0].text
+  const queryTranslate = await langTraductor(query, 'es', 'en')
+  console.log({ queryTranslate })
+  const queryEN = queryTranslate.translated_text
   const originalAnswer = await questionIa(queryEN)
   const msgError =
     'Se ha producido un error, le recomendamos repetir la pregunta en inglés.\nDisculpe las molestias'
-
   const translate = await langTraductor(
     originalAnswer
       .replaceAll('"', '|')
       .replaceAll('\n', '$')
       .replaceAll('--\n', ''),
+    'en',
     'es'
   )
-  if (translate.message === 'Failed to fetch' || translate.info) return msgError
-  const spanishAnswer = translate[0].translations[0].text
+
+  if (!queryTranslate.translated_text) return msgError
+  const spanishAnswer = translate.translated_text
   return spanishAnswer
     .replaceAll('|', '"')
     .replaceAll('$', '\n')
