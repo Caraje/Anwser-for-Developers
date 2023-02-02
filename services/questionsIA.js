@@ -9,7 +9,7 @@ export async function questionIa(input) {
     model: 'command-xlarge-20221108',
     prompt: prompt,
     max_tokens: 300,
-    temperature: 0.5,
+    temperature: 0.7,
     num_generations: 1,
     k: 0,
     p: 0.6,
