@@ -11,10 +11,11 @@
  - [x] Subir la app a GitHub
  - [x] Publicarla en un servicio
  - [x] Mejorar el diseño de la app
- - [] Hacer la app Responsive
+ - [x] Hacer la app Responsive
  - [] CUIDAR ORTOGRAFIA!!!!!
  - [] Crear un README.md decente
  - [] revisar Refactorizar el codigo
+ - [] limpiar codigo de comentarios y console.logs
  - [] Añadir Tests
  - [] mejorar las respuetas con mass ejemplos
  - [] Subir la app a GitHub - version final
