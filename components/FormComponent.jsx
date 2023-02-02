@@ -11,6 +11,7 @@ const FormComponent = ({ isDisabled, handleForm }) => {
             className={style.inputForm}
             name='question'
             placeholder='Aqui va la pregunta'
+            autoComplete='off'
           />
           <button
             disabled={isDisabled}
