@@ -3,7 +3,8 @@
 :root {
   --primary: #ededed;
   --secondary: #2d2d2d;
-  --highlight: #ed1e79;
+  /* --highlight: #ed1e79; */
+  --highlight: #edbd1e;
   --text: #ededed;
   --disabled: #4d4d4d;
 

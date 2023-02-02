@@ -22,7 +22,7 @@
     font-size: 1.4rem;
     padding: .6rem;
     background-color: var(--highlight);
-    color: var(--primary);
+    color: var(--secondary);
     font-family: var(--primaryFont);
     font-weight: 800;
     border-radius: 0 5px 5px 0;

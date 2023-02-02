@@ -34,7 +34,7 @@
   font-size: 3rem;
   font-family: var(--primaryFont);
   font-weight: 800;
-  color: var(--primary);
+  color: var(--secondary);
   transition: all .2s ease-in-out;
 }
 
