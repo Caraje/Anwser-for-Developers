@@ -2,9 +2,6 @@ import { langDetect } from '../services/languageDetect'
 import { questionIa } from '../services/questionsIA'
 import { spanishAnswer } from './spanishAnswer'
 
-// ---------------
-
-// ---------------
 
 export const getAnswer = async (query) => {
   const lang = await langDetect(query)
