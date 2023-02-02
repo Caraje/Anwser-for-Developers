@@ -1,6 +1,6 @@
 import React from 'react'
 import style from '../src/styles/ModalInfo.module.css'
-const ModalInfo = ({ dialog, infoBase }) => {
+const ModalInfo = ({ dialog }) => {
   return (
     <dialog className={style.infoPanel} ref={dialog}>
       <header className={style.infoTitle}>
@@ -55,11 +55,11 @@ const ModalInfo = ({ dialog, infoBase }) => {
           aquellas que no, por lo que utiliza una API de traducción automática
           de{' '}
           <a
-            href='https://learn.microsoft.com/en-us/azure/cognitive-services/translator/'
+            href='https://rapidapi.com/armangokka/api/translo'
             target='_blank'
             rel='noreferrer'
           >
-            Microsoft
+            Translo
           </a>{' '}
           que traduce la pregunta y la respuesta del español al inglés y
           viceversa.
@@ -93,11 +93,11 @@ const ModalInfo = ({ dialog, infoBase }) => {
           </a>{' '}
           y{' '}
           <a
-            href='https://learn.microsoft.com/en-us/azure/cognitive-services/translator/'
+            href='https://rapidapi.com/armangokka/api/translo'
             target='_blank'
             rel='noreferrer'
           >
-            Microsoft
+            Translo
           </a>
           ), por lo que puedes copiar lo que necesites aunque se agradece una
           mención.

@@ -15,22 +15,19 @@ Este proyecto fue creado por Caraje y puedes ver más de su trabajo en su sitio 
 
 ## 🧑‍💻 Tecnologías usadas
 
-
-
 ### ⚛️ [React](https://reactjs.org/)
 
 ### 🤖 [CoHere](https://cohere.ai/)
 
 ### 📦 [Vite](https://vitejs.dev/)
 
-### 📱 [Microsoft Azure Translator](https://learn.microsoft.com/en-us/azure/cognitive-services/translator/)
 
 La [App](https://answer-for-developers.vercel.app/) esta desplegada usando los servicios de Vercel
 
 
 ## 👀 Que debes saber si quieres descargar este proyecto
 *	Tras descargar el repositorio haz la instalación de los paquetes necesarios con `pnpm Install`.
-*	Debes crear una cuenta en [CoHere](https://cohere.ai/) y en [Microsoft Azure Translator](https://learn.microsoft.com/en-us/azure/cognitive-services/translator/) para adquirir una key valida para poder usar los servicios 
+*	Debes crear una cuenta en [CoHere](https://cohere.ai/) y en [Translo](https://rapidapi.com/armangokka/api/translo) para adquirir una key valida para poder usar los servicios 
 *	Toquetea todo lo que quieras y disfruta de la experiencia.
 
 
