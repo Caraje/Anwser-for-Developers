@@ -3,7 +3,6 @@ import { langTraductor } from '../services/traductor'
 
 export const spanishAnswer = async (query) => {
   const queryTranslate = await langTraductor(query, 'es', 'en')
-  console.log({ queryTranslate })
   const queryEN = queryTranslate.translated_text
   const originalAnswer = await questionIa(queryEN)
   const msgError =
