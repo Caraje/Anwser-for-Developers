@@ -17,8 +17,8 @@ const ModalInfo = ({ dialog, infoBase }) => {
       <div className={style.boxVoid}></div>
       <main>
         <p className={style.infoParagraph}>
-          Este proyecto ha sido creado con motivo del Hackathon de Enero 2023
-          creado por Midudev.{' '}
+          Este proyecto fue creado para el Hackathon de Enero 2023 organizado
+          por{' '}
           <a
             href='https://twitter.com/midudev'
             target='_blank'
@@ -26,60 +26,55 @@ const ModalInfo = ({ dialog, infoBase }) => {
           >
             Midudev
           </a>
-        </p>
-        <p className={style.infoParagraph}>
-          Se ha creado con la tecnologia de Inteligencia Artificial de{' '}
+          . Fue desarrollado con la tecnología de Inteligencia Artificial de{' '}
           <a href='https://cohere.ai/' target='_blank' rel='noreferrer'>
             Co:here
           </a>
+          .
         </p>
+
         <p className={style.infoParagraph}>
-          La idea propuesta consiste en que el usuario puede hacer las preguntas
-          sobre desarrollo web que tenga a la aplicación y mediante el uso de la
-          inteligencia artificial de{' '}
+          La propuesta consiste en que los usuarios puedan hacer preguntas sobre
+          desarrollo web a la aplicación y recibir respuestas generadas por la
+          IA de{' '}
           <a href='https://cohere.ai/' target='_blank' rel='noreferrer'>
             Co:here
           </a>
-          , se genera una respuesta acorde a lo aprendido por la IA.
+          , basadas en su aprendizaje. Cuanto más detallada sea la pregunta, más
+          clara será la respuesta generada.
         </p>
+
         <p className={style.infoParagraph}>
-          Las respuestas generadas seran mas claras cuanto mas descriptiva sea
-          la pregunta realizada.
-        </p>
-        <p className={style.infoParagraph}>
-          La IA creada por{' '}
+          Actualmente, la IA de{' '}
           <a href='https://cohere.ai/' target='_blank' rel='noreferrer'>
             Co:here
           </a>{' '}
-          esta pensada actualmente para ser usada en Ingles, y es en este idioma
-          como se obtienen las respuestas mas fieles.
-        </p>
-        <p className={style.infoParagraph}>
-          Sin embargo esta aplicacion esta pensada para ofrecer respuestas tanto
-          a personas que saben ingles como a las que no, por lo que hace uso de
-          una API de traduccion automatica de{' '}
+          está diseñada para responder en inglés y es en este idioma donde se
+          obtienen las respuestas más precisas. Sin embargo, la aplicación está
+          diseñada para atender tanto a personas que hablen inglés como a
+          aquellas que no, por lo que utiliza una API de traducción automática
+          de{' '}
           <a
             href='https://learn.microsoft.com/en-us/azure/cognitive-services/translator/'
             target='_blank'
             rel='noreferrer'
           >
             Microsoft
-          </a>
-          , que traduce la pregunta del español al ingles al igual que la
-          respuesta del ingles al español.
+          </a>{' '}
+          que traduce la pregunta y la respuesta del español al inglés y
+          viceversa.
         </p>
+
         <p className={style.infoParagraph}>
-          Desgraciadamente esta traduccion no siempre es la mas exacta y puede
-          traer algun error.
+          Es importante destacar que la traducción automática no siempre es
+          perfecta y puede causar errores. En caso de que la traducción resulte
+          incorrecta, se recomienda hacer la pregunta de nuevo en inglés para
+          evitar errores.
         </p>
+
         <p className={style.infoParagraph}>
-          En ocasiones las traducciones pueden generar un error, en ese caso
-          recomendamos repetir la pregunta a la IA, pero lo ideal es que se
-          repita en ingles, evitando asi posibles errores.
-        </p>
-        <p className={style.infoParagraph}>
-          Esta aplicacion ha sido creada por Caraje y si te gusta puedes ver mas
-          trabajos en la web{' '}
+          Este proyecto fue creado por Caraje y puedes ver más de su trabajo en
+          su sitio web{' '}
           <a
             href='https://www.carlosajenjo.es'
             target='_blank'
@@ -87,10 +82,12 @@ const ModalInfo = ({ dialog, infoBase }) => {
           >
             www.carlosajenjo.es
           </a>
+          .
         </p>
+
         <p className={style.infoParagraph}>
-          Toda esta web esta libre de derechos de autor (expectuando los que
-          puedan tener las tecnologias de{' '}
+          Todo el contenido de esta página está libre de derechos de autor
+          (exceptuando aquellos que puedan corresponder a{' '}
           <a href='https://cohere.ai/' target='_blank' rel='noreferrer'>
             Co:here
           </a>{' '}
@@ -102,17 +99,13 @@ const ModalInfo = ({ dialog, infoBase }) => {
           >
             Microsoft
           </a>
-          ), por lo demas, se libre para compiar lo que necesites, si es
-          haciendo mencion, mucho mejor.
+          ), por lo que puedes copiar lo que necesites aunque se agradece una
+          mención.
         </p>
+
         <p className={style.infoParagraph}>
-          ¡¡¡Ten un buen dia y gracias por visitar esta web !!!
+          ¡Gracias por visitar esta página! ¡Que tengas un buen día!
         </p>
-        {/* {infoBase.moreInfo.textDesc.map((el, id) => (
-          <p className={style.infoParagraph} key={el}>
-            {el}
-          </p>
-        ))} */}
       </main>
     </dialog>
   )

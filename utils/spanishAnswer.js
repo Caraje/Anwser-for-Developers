@@ -4,12 +4,12 @@ import { langTraductor } from '../services/traductor'
 export const spanishAnswer = async (query) => {
   const queryTranslate = await langTraductor(query, 'en')
   if (queryTranslate.error)
-    return 'Hay un problema con los servicios de traduccion, repita la pregunta en Ingles, disculpe las molestias'
+    return 'El servicio que provee la traducción esta caído en estos momentos, intente de nuevo su pregunta en inglés.\n\nDisculpe las molestias'
 
   const queryEN = queryTranslate[0].translations[0].text
   const originalAnswer = await questionIa(queryEN)
   const msgError =
-    'Se ha producido un error, le recomendamos repetir la pregunta en ingles.\nDisculpe las molestias'
+    'Se ha producido un error, le recomendamos repetir la pregunta en inglés.\nDisculpe las molestias'
 
   const translate = await langTraductor(
     originalAnswer
