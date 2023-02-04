@@ -3,7 +3,6 @@ import { langTraductor } from '../services/traductor'
 
 export const spanishAnswer = async (query) => {
   const queryTranslate = await langTraductor(query, 'es', 'en')
-  console.log({ queryTranslate })
   if (!queryTranslate.ok)
     return `Existe un error con el servidor de traducciones.
 Es posible que este operativo en breve, sin embargo le recomendamos repetir la pregunta en inglés.
