@@ -1,4 +1,4 @@
-import { prompsIA } from '../data/PrompsIA'
+import { prompsIA } from '../data/prompsIA'
 
 const COHERE_API_KEY = import.meta.env.VITE_COHERE_API_KEY
 const COHERE_API_GENERATE_URL = import.meta.env.VITE_COHERE_API_GENERATE_URL
@@ -8,7 +8,7 @@ export async function questionIa(input) {
   const data = {
     model: 'command-xlarge-20221108',
     prompt: prompt,
-    max_tokens: 300,
+    max_tokens: 400,
     temperature: 0.7,
     num_generations: 1,
     k: 0,
@@ -28,7 +28,6 @@ export async function questionIa(input) {
     },
     body: JSON.stringify(data),
   }).then((res) => res.json())
-
   const { text } = response.generations[0]
   return text.trim()
 }

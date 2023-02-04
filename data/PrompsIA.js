@@ -1,135 +1,117 @@
 export const prompsIA = (input) => {
-  return `Question: What are the newly introduced input types in HTML5?
-
-  Answer: A namespace is a simple global object that is used to hold methods, properties, and other objects in them. It adds ease of use via modularity, thereby, providing users with the ability to reuse the code and avoid naming conflicts.
-
---
-Question:What is the use of a namespace in Web Development?
-
-Answer:A namespace is a simple global object that is used to hold methods, properties, and other objects in them. It adds ease of use via modularity, thereby, providing users with the ability to reuse the code and avoid naming conflicts.
---
-Question: What is the use of CORS?
-
-Answer: CORS stands for Cross-origin Resource Sharing. It is a mechanism that allows a variety of resources to be requested at a time from a domain that is outside the current request domain.
---
-Question: What is Responsive Web Design (RWD) in HTML and CSS?
-
-Answer: Responsive Web Design is a concept that is used to create web pages that can scale across multiple resolutions without any loss of information or screen tearing.
-
-It automatically adjusts the structure of the web page based on the device it is viewed on to provide optimal viewing experience.
---
-Question:  What are some of the types of CSS that are used?
-
-Answer:There are three main types of CSS present:
-
-  - Inline CSS: Supports the addition of CSS inline, alongside HTML elements
-  - External CSS: Used to import an external CSS file to the HTML document
-  - Embedded CSS: Used to add CSS styles by making use of the <style> attribute
-
---
-Question:What is the use of a selector in CSS?
-
-Answer: A CSS selector is used with a rule in the inline elements, which require styling. With the help of selectors, it is easy to find and select HTML elements based on factors, such as name, ID, attribute, etc.
---
-Question: What are some of the Web Development technologies that you know?
-
-Answer: This question is very common in a Web Development interview. The answer is based on your learning, experience, and proficiency in this field. However, a good Web Developer will have profound working skills in any of the following technologies:
-
-  - HTML
-  - CSS
-  - JavaScript
-  - SQL
-  - Python
-  - PHP
---
-Question: What are the various data types present in JavaScript?
-
-Answer: JavaScript supports the following data types:
-
-  - Boolean
-  - Number
-  - Object
-  - Undefined
-  - Null
-  - String
-  - Function
---
-
-Question:  In HTML what tag can be used for a multi-line text input control?
-
-Answer: For multi-line text input control, you can use the “textarea tag”.
-
---
-Question: Explain how can you refer to CSS file in the web page? 
-
-Answer: You can refer to the .CSS file in the webpage by using the <link> tag.  It should be kept between <head></head>tag. For example <linkhref=”/css/mystyle.css” type=”text/css” rel=”stylesheet”/>
-
---
-Question: How to integrate different stylesheets into a website?
-
-Answer:It depends on the factor of how the site is laid out. However, for the most efficient performance, one file can be used with styles.css. If you want to change any style, open up the styles.css file, and in the relevant section, you can modify CSS. You can also link your HTML file through the below command.
-
---
-Question:  What are some of the pop-up boxes available in JavaScript? Explain them.
-
-Answer: There are usually three types of boxes available in JavaScript. They are:
-
-  - ALERT displays a message with an OK button.
-
-  - CONFIRM: displays a confirmation window with OK and Cancel buttons.
-
-  - PROMPT: displays a pop-up dialog box seeking user inputs followed by confirmation buttons.
-
---
-Question: Define Scope in JavaScript and name different types of Scopes.
-
-Answer: The scope is usually defined to felicitate the accessibility of variables and methods(functions) in applications. There are two types of Scopes in JavaScript: Local and Global. 
-
---
-Question: What is the difference between '==' and '===' operators?
-
-Answer: Although both of the operators belong to the comparison operator category, the '==' operator checks the given values, whereas the '===' behaves like an equality operator and checks both the value and their type.
-
---
-Question: What is Node Package Manager or NPM?
-
-Answer: NPM is a package manager for JavaScript. NPM is designed to put modules intact so that nodes when the need can find them. It is designed to maintain and serve conflicts arising in dependencies. It is mostly used to install programs, configure them, publish and develop them using the intact resources in the modules.
-
---
-Question: What is Webpack?
-
-Answer: Webpack in JavaScript is generally a static module bundler designed to bundle JS files in the browser and check their usage. It dynamically puts various files, assets, images, and fonts in a graph of dependency. It enables you to use the required () method to point to the files and figure out how they will be processed in the final bundle of JavaScript. Initially, a webpack slows down when used initially, but the speed eventually picks when correctly used.
-
---
-Question: What is Document Object Model (DOM)?
-
-Answer: DOM is defined as the interface channeling cross-platform programming and is primarily used to represent HTML and XML documents in nodes and objects. In simple words, DOM defines the way of manipulating the logical structure of the documents and how they are accessed. It can enable developers to modify, create, or remove the document structure, content, and style used.
-
-Moreover, whenever a document is displayed in the browser, it contains the combined style because it automatically converts the styling components like CSS into DOM. The DOM combines these styling components in the content of the document.
-
---
-Question: Who is Midudev?
-
-Answer: A well known Spanish Streamer, dedicated to teaching front-end and web development.He is also known for "Mover las manitas".If you want to learn, don't forget to subscribe to www.twitch.tv/midudev
+  return `Question: What is JavaScript?
+Anwser:JavaScript is a high-level, dynamic programming language that's commonly used to add interactivity and other dynamic elements to web pages.
 --
 Question: Who is Midudev?
 
 Answer: He is also known for "Mover las manitas".If you want to learn, don't forget to subscribe to www.twitch.tv/midudev
 --
-Question: Why are media queries used in CSS3?
 
-Answer: Media queries in CSS are used to define different media asset queries that are responsive and come in different varieties of shapes and sizes depending upon the viewer's window. The entities may include height, width, viewport, resolution, orientation, etc.
-
+Question: What is a web API?
+Anwser:A web API is an interface for accessing a web-based software application or web tool.
 --
-Question: What are GET and POST? Explain what the difference between getting and Post is?
-
-Answer: A GET request is generally used in the instances like AJAX calls to an API. GET requests are limited and secure. The user can easily view them if they have the URL.
-
-A POST request is typically used to store data in a database submitted through a form. POST requests are more secure than getting requests. They have two steps to utilize the resource and remain hidden from the user.
-
+Question: What is REST?
+Anwser:REST stands for Representational State Transfer, and it's an architectural style for building web APIs.
 --
 
-Answer: ${input}
+Question: What is a back-end framework?
+Anwser:A back-end framework is a pre-prepared library that abstracts away the low-level details of building a web server and provides a more high-level API for developing web applications.
+--
 
-TLDR:`
+Question: What are the data types in JavaScript?
+Anwser: The data types in JavaScript include Number, String, Boolean, Undefined, and Null.
+--
+Question: What is the difference between == and === in JavaScript?
+Anwser: The double equals (==) operator performs type coercion, meaning it converts the operands to the same type before making the comparison. The triple equals (===) operator performs strict equality comparison and does not perform type coercion.
+--
+Question: What is the difference between "var", "let", and "const"?
+Anwser: "Var" is function scoped, meaning its value can be changed within the same function. "Let" and "const" are block scoped, meaning they cannot be changed after they are declared. "Const" is used for values that cannot be changed.
+--
+Question: What is hoisting in JavaScript?
+Anwser: Hoisting is a mechanism in JavaScript where variable and function declarations are moved to the top of their scope, regardless of where they are written in the code.
+
+--
+Question: What is the difference between an object and an array in JavaScript?
+Anwser: An object is an unordered collection of key-value pairs, while an array is an ordered collection of elements.
+--
+Question: How do you add an element to an array in JavaScript?
+Anwser: You can add an element to an array in JavaScript using the "push" method or by directly assigning a value to a new index in the array.
+--
+Question: How do you loop through an array in JavaScript?
+Anwser: You can loop through an array in JavaScript using a "for" loop, "forEach" method, or "for-of" loop.
+--
+Question: How do you remove an element from an array in JavaScript?
+Anwser: You can remove an element from an array in JavaScript using the "splice" method, "slice" method, or "filter" method.
+--
+
+Question: What is the difference between a "forEach" loop and a "map" in JavaScript?
+Anwser: A "forEach" loop is used to iterate through an array and perform a function on each element, while "map" is used to create a new array from an existing array by performing a function on each element.
+--
+Question: What is a callback function in JavaScript?
+Anwser: A callback function is a function passed as an argument to another function and is executed after the outer function has completed.
+
+--
+Question: What is React?
+Anwser:React is a JavaScript library for building user interfaces. It allows developers to build reusable UI components and manage the state of an application efficiently.
+
+--
+
+Question: What is JSX in React?
+Anwser:JSX is a syntax extension for JavaScript that allows developers to write HTML-like code within their JavaScript code. It is used to create components in React.
+
+--
+Question: What is the difference between a state and a props in React?
+Anwser:"State" is an object that holds data specific to a component and can change during the lifetime of a component. "Props" are read-only data that are passed from a parent component to a child component.
+
+--
+
+Question: What is a Higher-Order Component (HOC) in React?
+Anwser:A Higher-Order Component is a function that takes a component and returns a new component with additional props. HOCs are used to reuse logic across multiple components.
+
+--
+
+Question: What is the difference between server-side rendering and client-side rendering in React?
+Anwser:Server-side rendering is when the HTML is generated on the server and sent to the client, while client-side rendering is when the HTML is generated on the client using JavaScript.
+
+--
+
+Question: What is Redux and how does it work with React?
+Anwser:Redux is a state management library for JavaScript applications. It works with React by allowing developers to manage the state of their application in a centralized store, making it easier to update and maintain the state.
+
+--
+
+Question: How does Next.js handle routing?
+Answer: Next.js handles routing using file-based routing. Each file in the "pages" directory represents a route in the application.
+
+--
+Question: What is Static Generation in Next.js?
+Answer: Static Generation is a feature in Next.js that allows developers to pre-render the HTML for a specific route at build time, providing faster load times and improved performance for the user.
+
+--
+
+Question: How does Next.js handle data fetching?
+Answer: Next.js allows developers to fetch data using the "getStaticProps" and "getServerSideProps" methods, which can be used to fetch data during build time or on the server.
+
+--
+
+Question: How do you use environment variables in Next.js?
+Answer: Environment variables in Next.js can be set using the "env" property in the "next.config.js" file or using tools like "dotenv".
+
+--
+
+Question: What is Astro?
+Answer: Astro is an open-source, Apache licensed framework for building microservices in Node.js.
+--
+
+Question: How does Astro handle error handling?
+Answer: Astro provides a centralized error handling mechanism, which can be customized to provide detailed error messages and logging.
+--
+
+Question: Can you use Astro with a front-end framework like React or Angular?
+Answer: Yes, you can use Astro with a front-end framework like React or Angular, as long as you build the front-end application as a separate service and make API calls to the Astro-powered microservices.
+--
+
+Question: ${input}
+
+Anwser: `
 }
