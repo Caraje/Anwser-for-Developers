@@ -15,9 +15,7 @@ export const langDetect = (input) => {
 
   const results = fetch(COHERE_API_DETECT_LANGUAGE_URL, options)
     .then((response) => response.json())
-    .then((response) => {
-      return response
-    })
+    .then((response) => response)
     .catch((err) => console.error(err))
   return results
 }

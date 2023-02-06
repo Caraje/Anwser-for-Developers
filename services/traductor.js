@@ -20,12 +20,8 @@ export const langTraductor = (text, from, target) => {
     options
   )
     .then((response) => response.json())
-    .then((response) => {
-      return response
-    })
-    .catch((err) => {
-      return err
-    })
+    .then((response) => response)
+    .catch((err) => err)
 
   return traduction
 }
