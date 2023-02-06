@@ -4,7 +4,9 @@ Anwser:JavaScript is a high-level, dynamic programming language that's commonly 
 --
 Question: Who is Midudev?
 
-Answer: He is also known for "Mover las manitas".If you want to learn, don't forget to subscribe to www.twitch.tv/midudev
+Answer: A well known Spanish Streamer, Recognized Google Developer Expert and GitHub Star, dedicated to teaching web development.
+He is also known for "Mover las manitas".
+If you want to learn, don't forget to subscribe to www.twitch.tv/midudev
 --
 
 Question: What is a web API?
