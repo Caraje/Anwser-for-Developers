@@ -64,7 +64,6 @@
 
 .btnModal:hover {
   cursor: pointer;
-  /* color: var(--highlight); */
   transform: scale(1.2);
   text-shadow: 0 0 15px var(--highlight);
   filter: brightness(1.2);
