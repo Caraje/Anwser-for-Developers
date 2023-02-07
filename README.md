@@ -27,7 +27,7 @@ La [App](https://answer-for-developers.vercel.app/) esta desplegada usando los s
 
 ## 👀 Que debes saber si quieres descargar este proyecto
 *	Tras descargar el repositorio haz la instalación de los paquetes necesarios con `pnpm Install`.
-*	Debes crear una cuenta en [CoHere](https://cohere.ai/) y en [Translo](https://rapidapi.com/armangokka/api/translo) para adquirir una key valida para poder usar los servicios 
+*	Debes crear una cuenta en [CoHere](https://cohere.ai/) y en [DEVISTY](https://rapidapi.com/dickyagustin/api/text-translator2) para adquirir una key valida para poder usar los servicios 
 *	Toquetea todo lo que quieras y disfruta de la experiencia.
 
 

@@ -55,11 +55,11 @@ const ModalInfo = ({ dialog }) => {
           aquellas que no, por lo que utiliza una API de traducción automática
           de{' '}
           <a
-            href='https://rapidapi.com/armangokka/api/translo'
+            href='https://rapidapi.com/dickyagustin/api/text-translator2'
             target='_blank'
             rel='noreferrer'
           >
-            Translo
+            DEVISTY
           </a>{' '}
           que traduce la pregunta y la respuesta del español al inglés y
           viceversa.
@@ -93,11 +93,11 @@ const ModalInfo = ({ dialog }) => {
           </a>{' '}
           y{' '}
           <a
-            href='https://rapidapi.com/armangokka/api/translo'
+            href='https://rapidapi.com/dickyagustin/api/text-translator2'
             target='_blank'
             rel='noreferrer'
           >
-            Translo
+            DEVISTY
           </a>
           ), por lo que puedes copiar lo que necesites aunque se agradece una
           mención.
